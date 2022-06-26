@@ -1,0 +1,338 @@
+<!DOCTYPE html>
+<html lang="pt_br">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Produtos</title>
+    <link rel="stylesheet" href="main.css">
+    <script src="script.js"></script>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css"
+        integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
+</head>
+
+<body>
+
+    <header>
+
+        <nav>
+            <p class="logo">Irmões Market</p>
+
+            <ul class="ul1">
+                <li class="li1"><a class="a1" href="index.html">Página Inicial</a></li>
+                <li class="li1"><a class="a1" href="quemsomos.html">Quem Somos</a></li>
+                <li class="li1"><a class="a1" id="main" href="produtos.html">Produtos</a></li>
+                <li class="li1"><a class="a1" href="#footer">Entre em Contato</a></li>
+            </ul>
+        </nav>
+
+    </header>
+
+    <div class="hidden"></div>
+
+    <div class="content">
+
+        <div class="slides">
+
+            <input type="radio" name="slides" id="radio1" checked>
+            <input type="radio" name="slides" id="radio2">
+            <input type="radio" name="slides" id="radio3">
+            <input type="radio" name="slides" id="radio4">
+
+            <div class="slide first">
+                <img src="a1.png" alt="">
+            </div>
+
+            <div class="slide">
+                <img src="a2.png" alt="">
+            </div>
+
+            <div class="slide">
+                <img src="a3.png" alt="">
+            </div>
+
+            <div class="slide">
+                <img src="a4.png" alt="">
+            </div>
+
+        </div>
+
+    </div>
+
+    <div class="navg">
+
+        <div class="div1">
+
+            <label for="radio1" class="but"></label>
+            <label for="radio2" class="but"></label>
+            <label for="radio3" class="but"></label>
+            <label for="radio4" class="but"></label>
+
+        </div>
+
+    </div>
+
+
+    <!--INÍCIO LIMPEZA (6 imagens de 180x180 com 5px de margin-right)-->
+    <div class="contt">
+
+        <div class="pictr">
+            <img src="LIMPEZA.png" alt="">
+        </div>
+
+        <div class="cont2">
+
+            <button id="limp1a" onclick="esquerda(this.id)" class="um">
+                <img src="https://raw.githubusercontent.com/eduardorot/testando/main/esquerda.png"
+                    style="cursor: pointer;" id="esquerda">
+            </button>
+
+            <div class="sli">
+                <div class="prod"><a href="https://www.vanish.com.br/" target="_blank"><img class="imgprod" src="limp1.png" id="limp1" alt=""></a></div>
+                <div class="prod"><a href="https://br.pg.com/" target="_blank"><img class="imgprod" src="limp2.png" id="limp2" alt=""></a></div>
+                <div class="prod"><a href="https://www.ype.ind.br/" target="_blank"><img class="imgprod" src="limp3.png" id="limp3" alt=""></a></div>
+                <div class="prod"><a href="https://www.omo.com/br/home.html" target="_blank"><img class="imgprod" src="limp4.png" id="limp4" alt=""></a></div>
+                <div class="prod"><a href="https://www.bombril.com.br/produtos" target="_blank"><img class="imgprod" src="limp5.png" id="limp5" alt=""></a></div>
+                <div class="prod"><a href="https://www.arielbrasil.com.br/pt-br" target="_blank"><img class="imgprod" src="limp6.png" id="limp6" alt=""></a></div>
+            </div>
+
+            <button id="limp1d" onclick="direita(this.id)" class="outro">
+                <img src="https://raw.githubusercontent.com/eduardorot/testando/main/direita.png"
+                    style="cursor: pointer;" id="direita">
+            </button>
+
+        </div>
+
+    </div>
+    <!--FIM LIMPEZA-->
+
+
+    <!--INÍCIO PADARIA (6 imagens de 180x180 com 5px de margin-right)-->
+    <div class="contt">
+
+        <div class="pictr">
+            <img src="PADARIA.png" alt="">
+        </div>
+
+        <div class="cont2">
+
+            <button id="pada1a" onclick="esquerda(this.id)" class="um">
+                <img src="https://raw.githubusercontent.com/eduardorot/testando/main/esquerda.png"
+                    style="cursor: pointer;" id="esquerda">
+            </button>
+
+            <div class="sli">
+                <div class="prod"><a href="https://www.sevenboys.com.br/produtos/" target="_blank"><img class="imgprod" src="pad1.png" alt="" id="pada1"></a></div>
+                <div class="prod"><a href="https://padariapullman.com.br/" target="_blank"><img class="imgprod" src="pad2.png" alt="" id="pada2"></a></div>
+                <div class="prod"><a href="https://www.visconti.com.br/" target="_blank"><img class="imgprod" src="pad3.png" alt="" id="pada3"></a></div>
+                <div class="prod"><a href="https://www.wickbold.com.br" target="_blank"><img class="imgprod" src="pad4.png" alt="" id="pada4"></a></div>
+                <div class="prod"><a href="https://www.panco.com.br/" target="_blank"><img class="imgprod" src="pad5.png" alt="" id="pada5"></a></div>
+                <div class="prod"><a href="https://www.nutrella.com.br/" target="_blank"><img class="imgprod" src="pad6.png" alt="" id="pada6"></a></div>
+            </div>
+
+            <button id="pada1d" onclick="direita(this.id)" class="outro">
+                <img src="https://raw.githubusercontent.com/eduardorot/testando/main/direita.png"
+                    style="cursor: pointer;" id="direita">
+            </button>
+
+        </div>
+
+    </div>
+    <!--FIM PADARIA-->
+
+
+    <!--INÍCIO BEBIDAS (6 imagens de 180x180 com 5px de margin-right)-->
+    <div class="contt">
+
+        <div class="pictr">
+            <img src="BEBIDAS.png" alt="">
+        </div>
+
+        <div class="cont2">
+
+            <button id="bebi1a" onclick="esquerda(this.id)" class="um">
+                <img src="https://raw.githubusercontent.com/eduardorot/testando/main/esquerda.png"
+                    style="cursor: pointer;" id="esquerda">
+            </button>
+
+            <div class="sli">
+                <div class="prod"><a href="https://www.coca-cola.com.br/" target="_blank"><img class="imgprod" src="beb1.png" id="bebi1" alt=""></a></div>
+                <div class="prod"><a href="https://www.chaleao.com.br/" target="_blank"><img class="imgprod" src="beb2.png" id="bebi2" alt=""></a></div>
+                <div class="prod"><a href="https://aguamineralimperatriz.com.br/" target="_blank"><img class="imgprod" src="beb3.png" id="bebi3" alt=""></a></div>
+                <div class="prod"><a href="https://refrigerantespureza.com.br/" target="_blank"><img class="imgprod" src="beb4.png" id="bebi4" alt=""></a></div>
+                <div class="prod"><a href="https://www.tang.com.br/" target="_blank"><img class="imgprod" src="beb5.png" id="bebi5" alt=""></a></div>
+                <div class="prod"><a href="https://www.brahma.com.br/" target="_blank"><img class="imgprod" src="beb6.png" id="bebi6" alt=""></a></div>
+            </div>
+
+            <button id="bebi1d" onclick="direita(this.id)" class="outro">
+                <img src="https://raw.githubusercontent.com/eduardorot/testando/main/direita.png"
+                    style="cursor: pointer;" id="direita">
+            </button>
+
+        </div>
+
+    </div>
+    <!--FIM BEBIDAS-->
+
+
+    <!--INÍCIO HIGIENE (6 imagens de 180x180 com 5px de margin-right)-->
+    <div class="contt">
+
+        <div class="pictr">
+            <img src="HIGIENE.png" alt="">
+        </div>
+
+        <div class="cont2">
+
+            <button id="higi1a" onclick="esquerda(this.id)" class="um">
+                <img src="https://raw.githubusercontent.com/eduardorot/testando/main/esquerda.png"
+                    style="cursor: pointer;" id="esquerda">
+            </button>
+
+            <div class="sli">
+                <div class="prod"><a href="https://www.dove.com/br/home.html" target="_blank"><img class="imgprod" src="hig1.png" id="higi1" alt=""></a></div>
+                <div class="prod"><a href="https://www.headandshoulders.com.br/pt-br" target="_blank"><img class="imgprod" src="hig2.png" id="higi2" alt=""></a></div>
+                <div class="prod"><a href="https://www.sorriso.com/" target="_blank"><img class="imgprod" src="hig3.png" id="higi3" alt=""></a></div>
+                <div class="prod"><a href="https://www.bozzano.com.br/" target="_blank"><img class="imgprod" src="hig4.png" id="higi4" alt=""></a></div>
+                <div class="prod"><a href="https://www.jnjbrasil.com.br/" target="_blank"><img class="imgprod" src="hig5.png" id="higi5" alt=""></a></div>
+                <div class="prod"><a href="https://www.colgate.com.br/" target="_blank"><img class="imgprod" src="hig6.png" id="higi6" alt=""></a></div>
+            </div>
+
+            <button id="higi1d" onclick="direita(this.id)" class="outro">
+                <img src="https://raw.githubusercontent.com/eduardorot/testando/main/direita.png"
+                    style="cursor: pointer;" id="direita">
+            </button>
+
+        </div>
+
+    </div>
+    <!--FIM HIGIENE-->
+
+
+    <!--INÍCIO CARNES (6 imagens de 180x180 com 5px de margin-right)-->
+    <div class="contt">
+
+        <div class="pictr">
+            <img src="CARNES.png" alt="">
+        </div>
+
+        <div class="cont2">
+
+            <button id="carn1a" onclick="esquerda(this.id)" class="um">
+                <img src="https://raw.githubusercontent.com/eduardorot/testando/main/esquerda.png"
+                    style="cursor: pointer;" id="esquerda">
+            </button>
+
+            <div class="sli">
+                <div class="prod"><a href="https://www.friboi.com.br/" target="_blank"><img class="imgprod" src="car1.png" id="carn1" alt=""></a></div>
+                <div class="prod"><a href="https://www.seara.com.br/" target="_blank"><img class="imgprod" src="car2.png" id="carn2" alt=""></a></div>
+                <div class="prod"><a href="https://www.auroraalimentos.com.br/" target="_blank"><img class="imgprod" src="car3.png" id="carn3" alt=""></a></div>
+                <div class="prod"><a href="http://www.acouguebroering.com.br/" target="_blank"><img class="imgprod" src="car4.png" id="carn4" alt=""></a></div>
+                <div class="prod"><a href="https://www.sadia.com.br/" target="_blank"><img class="imgprod" src="car5.png" id="carn5" alt=""></a></div>
+                <div class="prod"><a href="https://www.swift.com.br/" target="_blank"><img class="imgprod" src="car6.png" id="carn6" alt=""></a></div>
+            </div>
+
+            <button id="carn1d" onclick="direita(this.id)" class="outro">
+                <img src="https://raw.githubusercontent.com/eduardorot/testando/main/direita.png"
+                    style="cursor: pointer;" id="direita">
+            </button>
+
+        </div>
+
+    </div>
+    <!--FIM CARNES-->
+
+
+    <!--INÍCIO HORTIFRUTI (6 imagens de 180x180 com 5px de margin-right)-->
+    <div class="contt">
+
+        <div class="pictr">
+            <img src="HORTIFRUTI.png" alt="">
+        </div>
+
+        <div class="cont2">
+
+            <button id="hort1a" onclick="esquerda(this.id)" class="um">
+                <img src="https://raw.githubusercontent.com/eduardorot/testando/main/esquerda.png"
+                    style="cursor: pointer;" id="esquerda">
+            </button>
+
+            <div class="sli">
+                <div class="prod"><a href="http://nita.org.br/empresa/agroplural-agronegocios-inteligentes-ltda/" target="_blank"><img class="imgprod" src="hor1.png" id="hort1" alt=""></a></div>
+                <div class="prod"><a href="https://agrofrut.com.br/" target="_blank"><img class="imgprod" src="hor2.png" id="hort2" alt=""></a></div>
+                <div class="prod"><a href="http://distribuidoramariano.com.br/" target="_blank"><img class="imgprod" src="hor3.png" id="hort3" alt=""></a></div>
+                <div class="prod"><a href="https://www.hortalicaslema.com.br/" target="_blank"><img class="imgprod" src="hor4.png" id="hort4" alt=""></a></div>
+                <div class="prod"><a href="https://www.fazendariobonito.com/" target="_blank"><img class="imgprod" src="hor5.png" id="hort5" alt=""></a></div>
+                <div class="prod"><a href="https://www.saojorgehortifruti.com.br/" target="_blank"><img class="imgprod" src="hor6.png" id="hort6" alt=""></a></div>
+            </div>
+
+            <button id="hort1d" onclick="direita(this.id)" class="outro">
+                <img src="https://raw.githubusercontent.com/eduardorot/testando/main/direita.png"
+                    style="cursor: pointer;" id="direita">
+            </button>
+
+        </div>
+
+    </div>
+    <!--FIM HORTIFRUTI-->
+
+
+    <!--INÍCIO ALIMENTOS (9 imagens de 180x180 com 5px de margin-right)-->
+    <div class="contt">
+
+        <div class="pictr">
+            <img src="ALIMENTOS.png" alt="">
+        </div>
+
+        <div class="cont2">
+
+            <button onclick="esquerdaprod()" class="um">
+                <img src="https://raw.githubusercontent.com/eduardorot/testando/main/esquerda.png"
+                    style="cursor: pointer;" id="esquerda">
+            </button>
+
+            <div class="sli">
+                <div class="prod"><a href="https://www.barilla.com/pt-br" target="_blank"><img class="imgprod" src="ali1.png" id="prod1" alt=""></a></div>
+                <div class="prod"><a href="https://www.lojamondelez.com.br/Loja/Gomas/Gomas/Trident/4-11-39" target="_blank"><img class="imgprod" src="ali2.png" id="prod2" alt=""></a></div>
+                <div class="prod"><a href="https://www.mundodanone.com.br/" target="_blank"><img class="imgprod" src="ali3.png" id="prod3" alt=""></a></div>
+                <div class="prod"><a href="https://www.bauducco.com.br/" target="_blank"><img class="imgprod" src="ali4.png" id="prod4" alt=""></a></div>
+                <div class="prod"><a href="https://www.nestleporvoce.com.br/" target="_blank"><img class="imgprod" src="ali5.png" id="prod5" alt=""></a></div>
+                <div class="prod"><a href="https://www.produtositalianinho.com/" target="_blank"><img class="imgprod" src="ali6.png" id="prod6" alt=""></a></div>
+                <div class="prod"><a href="https://www.elmachips.com.br/" target="_blank"><img class="imgprod" src="ali7.png" id="prod7" alt=""></a></div>
+                <div class="prod"><a href="https://www.doritos.com/" target="_blank"><img class="imgprod" src="ali8.png" id="prod8" alt=""></a></div>
+                <div class="prod"><a href="https://www.primor.com.br/" target="_blank"><img class="imgprod" src="ali9.png" id="prod9" alt=""></a></div>
+            </div>
+
+            <button onclick="direitaprod()" class="outro">
+                <img src="https://raw.githubusercontent.com/eduardorot/testando/main/direita.png"
+                    style="cursor: pointer;" id="direita">
+            </button>
+
+        </div>
+
+    </div>
+    <!--FIM ALIMENTOS-->
+
+    <footer id="footer">
+        <div class="foot1">
+            <div class="foot_content">
+                <ul>
+                    <li><a class="a3" href="https://github.com/pseniaht/Trabalho-ADS-104-FINAL.git" target="_blank"><i id="icon" class="fab fa-github"></i><p class="p3">Confira o código do nosso site no GitHub!</p></a></li>
+                    <li><a class="a3" href="https://chat.whatsapp.com/D1yJhaiazlK8b2han9TT33" target="_blank"><i id="icon" class="fab fa-whatsapp"></i><p class="p3">Converse com os nossos Desenvolvedores!</p></a></li>
+                    <li><i id="icon" class="far fa-clock"></i><p class="p3">Horário de Funcionamento: 08:00–22:00</p></li>
+                    <li><a class="a3" href="https://goo.gl/maps/dpMmDTrkxNioUZNj8"><i id="icon" class="fas fa-map-marked-alt"></i><p class="p3">R. João Pereira dos Santos, 305 - Pte. do Imaruim, Palhoça - SC</p></a></li>
+                </ul>
+            </div>
+
+            <div class="foot_content">
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3534.641055288714!2d-48.65616508493946!3d-27.635631482821694!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x952735c5d45eca49%3A0xbac4903318b1e990!2sFMP%20-%20Faculdade%20Municipal%20de%20Palho%C3%A7a!5e0!3m2!1spt-BR!2sbr!4v1656128811478!5m2!1spt-BR!2sbr"
+                    width="520px" height="162px" style="border:0;" allowfullscreen="" loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade">
+                </iframe>
+            </div>
+        </div>
+    </footer>
+
+</body>
+
+</html>
