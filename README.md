@@ -9,7 +9,3 @@
 ➤ Lucas: https://github.com/Lucasfranken131
 
 ➤ Paula: https://github.com/pseniaht
-
-    Acesse o site!
-
-Link: https://irmoesmarket.x10.bz/
